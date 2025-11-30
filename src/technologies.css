@@ -1,0 +1,49 @@
+.logo_technologies{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px;
+}
+
+.icon_technologies, .icon_technologies_react, .icon_technologies_js, .icon_technologies_css {
+    border: 2px solid rgba(255, 255, 255, 0.288);
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.all_icon_technologies{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+.icon_technologies_react{
+    color: aqua;
+}
+.icon_technologies_js{
+    color: rgb(209, 226, 52);
+}
+.icon_technologies_css{
+    color: rgb(13, 72, 235);
+}
+.hr_technologies{
+    margin-top: 30px;
+}
+
+/* Téléphone */
+
+@media screen and (max-width: 768px) {
+    .icon_technologies, .icon_technologies_react, .icon_technologies_js, .icon_technologies_css {
+        padding: 5px;
+        font-size: 45px;
+    }
+    .logo_technologies{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .all_icon_technologies{
+        gap: 15px;
+    }
+}
