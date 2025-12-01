@@ -107,7 +107,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   body {
-    margin: 10px 50px;
+    margin: 10px 20px;
 }
 .box_1 {
     justify-content: center;
